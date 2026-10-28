@@ -1,4 +1,4 @@
-# Climate Value-At-Risk Model for the Planned Marsden Park Data Centrenbeck 
+# Climate Value-At-Risk Model for the Planned Marsden Park Data Centre 
 This project aims to model climate related financial risk for the Marsden Park NSW data centre. I've started by modelling daily maximum temperature in Marsden into the future using an Ornstein-Ulenbeck process. I will assume an increase in the average daily max temperature due to global warming. I will then determine a model for estimating cooling costs and run a Monte Carlo simulation to work out VaR estimates.
 
 ## Acknowledgements and AI Use
