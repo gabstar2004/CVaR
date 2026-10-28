@@ -1,1 +1,5 @@
-# CVaR
+# Climate Value-At-Risk Model for the Planned Marsden Park Data Centrenbeck 
+This project aims to model climate related financial risk for the Marsden Park NSW data centre. I've started by modelling daily maximum temperature in Marsden into the future using an Ornstein-Ulenbeck process. I will assume an increase in the average daily max temperature due to global warming. I will then determine a model for estimating cooling costs and run a Monte Carlo simulation to work out VaR estimates.
+
+## Acknowledgements and AI Use
+AI was not and will not be used to write any explanations or code. I use it to ask questions and help me find resources. I used Marco Hening Tallarico's work as inspiration and a guide for constructing the temperature model - https://towardsdatascience.com/stochastic-differential-equations-and-temperature-nasa-climate-data-pt-2/. This paper has also been useful so far - https://www.researchgate.net/publication/258380041_Weather_Derivatives_and_Stochastic_Modelling_of_Temperature.
